@@ -1,0 +1,16 @@
+{
+  "name": "winute",
+  "version": "1.0.0",
+  "description": "time killing by reading wine and stuff",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Irwan Phan",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^7.8.1",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12"
+  }
+}
