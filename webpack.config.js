@@ -19,6 +19,19 @@ module.exports = {
                     // Compiles Sass to CSS
                     'sass-loader',
                 ]
+            },
+            // here lies the babel, where all speak the same language :P
+            {
+                test: /\.js$/,
+                exclude: "/node_modules/",
+                use: [
+                    {
+                        loader: "babel-loader",
+                        options: {
+                            presets: ["@babel/preset-env"]
+                        }
+                    }
+                ]
             }
         ]
     }
