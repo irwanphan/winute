@@ -41,7 +41,9 @@ module.exports = {
         /* HTML Webpack Plugin */
         new HtmlWebpackPlugin({
             template: "./src/index.html",
-            filename: "index.html"
+            filename: "home.html",
+            inject: false
         })
-    ]
+    ],
+    watch: true
 }
